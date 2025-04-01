@@ -18,7 +18,7 @@
 
 \usepackage{lipsum}
 
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
 \begin{document}
@@ -35,17 +35,18 @@ Una dedicatoria corta. Por ejemplo, al \emph{Centro Tecnológico Ucampus}
 \end{dedicatoria}
 
 \begin{thanks} % opcional
-\lipsum[1-2]
+\input{thx.tex}
 \end{thanks}
 \cleardoublepage
 
 \tableofcontents
-\listoftables % opcional
-\listoffigures % opcional
+%\listoftables % opcional
+%\listoffigures % opcional
 
 \mainmatter
 
 \input{intro.tex}
+\input{prelim.tex}
 \input{cap1.tex}
 \input{cap2.tex}
 \input{conclu.tex}

@@ -1,17 +1,18 @@
 \documentclass[upright, contnum]{umemoria}
-\depto{DEPARTAMENTO DE CIENCIAS DE LA COMPUTACIÓN}
-\author{ALFREDO JAIME CADIZ RODRÍGUEZ}
-\title{DESDE LA WEB A LOS MÓVILES: LLEVANDO U-CURSOS A NUESTROS BOLSILLOS}
+\depto{DEPARTAMENTO DE INGENIERÍA MATEMÁTICA}
+\author{Antonia Sofía Labarca Sánchez}
+\title{ESTABILIDAD DE REDES UMBRAL SOBRE GRAFOS NO DIRIGIDOS CON PESOS ARBITRARIOS EN LAS ARISTAS}
 \auspicio{.}
-\date{ENERO 2014}
-\guia{JAVIER BUSTOS JIMÉNEZ}
-\carrera{INGENIERO CIVIL EN COMPUTACIÓN}
-\memoria{MEMORIA PARA OPTAR AL TÍTULO DE}
-\comision{JOHAN FABRY,PATRICIO INOSTROZA FAJARDIN}
+\date{Mayo 2025}
+\guia{iván rapaport\\\vspace{0.5em}PROFESOR CO-GUÍA:\\pedro montealegre}
+\carrera{INGENIERA CIVIL MATEMÁTICA}
+\memoria{TESIS PARA OPTAR AL GRADO DE \\MAGÍSTER EN CIENCIAS DE LA INGENIERÍA,
+MENCIÓN MATEMÁTICAS APLICADAS\\\vspace{0.5em} MEMORIA PARA OPTAR AL TÍTULO DE\\INGENIERA CIVIL MATEMÁTICA}
+\comision{}{}{}
 
 \usepackage{lipsum}
 
-\usepackage[latin1]{inputenc}
+%\usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
 
 \begin{document}
@@ -20,7 +21,7 @@
 \maketitle
 
 \begin{abstract}
-\lipsum[1-4]
+\input{abstract.tex}
 \end{abstract}
 
 \begin{dedicatoria}
@@ -28,24 +29,25 @@ Una dedicatoria corta.
 \end{dedicatoria}
 
 \begin{thanks}
-\lipsum[1-2]
+\input{thx.tex}
 \end{thanks}
 
 \cleardoublepage
 \tableofcontents
-\cleardoublepage
-\listoftables
-\cleardoublepage
-\listoffigures
+%\cleardoublepage
+%\listoftables
+%\cleardoublepage
+%\listoffigures
 
 \mainmatter
 
 \input{intro.tex}
+\input{prelim.tex}
 \input{cap1.tex}
 \input{cap2.tex}
 \input{conclu.tex}
 
 \nocite{*}
-\bibliographystyle{plain}
+\bibstyle{plain}
 \bibliography{bibliografia}
 \end{document}
